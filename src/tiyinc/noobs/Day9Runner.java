@@ -27,8 +27,9 @@ public class Day9Runner {
                 String currentLine = fileScanner.nextLine();
                 numLines++;
                 numChars += currentLine.length();
+                System.out.println(currentLine);
                 numInts++;
-                
+
             }
             System.out.println("you have " + numLines + " in your file");
             System.out.println("You have " + numChars + " in your file");
